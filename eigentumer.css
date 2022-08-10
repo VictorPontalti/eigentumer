@@ -40,7 +40,17 @@ header{
 
 .logo{
 	width: 40%;
+	min-width: 150px;
 	object-fit: contain;
+}
+
+footer{
+	display:flex;
+	width:100%;
+	background-color:steelblue;
+	color:whitemoke;
+	position: absolute;
+	bottom:0;
 }
 
 .top-nav {
