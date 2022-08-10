@@ -104,7 +104,7 @@ footer{
   
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #FFF;
-  height: 100px;
+  height: 150px;
   padding: 1% 10%;
 }
 
@@ -175,13 +175,19 @@ footer{
 }
 
 @media (max-width: 930px) {
+  
+.capa-black h1{
+ 
+  font-size: 3rem;
+}
+
   .menu-button-container {
     display: flex;
   }
   .menu {
     position: absolute;
     top: 0;
-    margin-top: 110px;
+    margin-top: 130px;
     left: 0;
     flex-direction: column;
     width: 100%;
