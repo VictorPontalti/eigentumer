@@ -88,6 +88,82 @@ align-content: center;
 	
 }
 
+.pag-miet{
+	width: 100%;
+	background-image: url("img/banner-rentalmanagement-big.jpg");
+	object-fit: fill;
+	background-position: 0% 35%;
+	background-repeat: no-repeat;
+	padding: 0% 5%;
+
+}
+
+.pag-kontakt{
+	width: 100%;
+	background-image: url("img/kontakt-big.jpg");
+	object-fit: fill;
+	background-position: 0% 35%;
+	background-repeat: no-repeat;
+	padding: 0% 5%;
+
+}
+
+
+.maintext{
+	padding: 0% 10%;
+	box-sizing: border-box;
+	font-size: 1.4rem;
+	line-height: 2rem;
+	margin-top: 60px;
+}
+
+.maintext-kontakt{
+	padding: 0% 10%;
+	box-sizing: border-box;
+	font-size: 1.4rem;
+	line-height: 2rem;
+	margin-top: 60px;
+	display: flex;
+	flex-direction: row;
+	gap: 50px;
+}
+
+.kontakt-text{
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+}
+
+.kontakt-form{
+	flex-basis: 120%;
+	
+}
+
+.kontakt-form input, .kontakt-form textarea{
+	width: 80%;
+	border: 1px solid #acacac;
+}
+
+.kontakt-form button{
+	width: 80%;
+	background-color: #232739;
+	color: #f0f0f0 ;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+}
+
+
+.maintext h3{
+	color: #232739;
+	text-decoration: underline;
+	margin-top: 60px;
+}
+
+.maintext li{
+	margin-bottom: 1.2rem;
+}
+
 .bannertext{
 	background-color: rgba(255, 255, 255, 0.8);
 	width: 50%;
@@ -187,6 +263,11 @@ footer .menulinks a:hover{
 
 @media screen and (max-width: 650px)
 {
+
+	body{
+		width: 100%;
+		margin: auto;
+	}
 	.menulinks{
 		flex-direction: column;
 	}
@@ -205,4 +286,24 @@ footer .menulinks a:hover{
 		top: 100px;
 		width: 60%;
 	}
+
+	.maintext-kontakt{
+		flex-direction: column;
+		box-sizing: border-box;
+	}
+
+	.pag-kontakt .bannertext{
+	width: 70%;
+}
+.topo{
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	width: 80%;
+}
+.topo img{
+	width: 25px;
+	height: auto;
+	margin: 10px 0px;
+}
 }
