@@ -290,6 +290,11 @@ footer .menulinks a:hover{
 }
 
 
+.img-meio{
+	width: 60%;
+	float: right;
+}
+
 @media screen and (max-width: 650px)
 {
 
@@ -299,6 +304,7 @@ footer .menulinks a:hover{
 	}
 	.menulinks{
 		flex-direction: column;
+		margin: 0;
 	}
 
 	.mietverwaltung{
@@ -334,10 +340,61 @@ footer .menulinks a:hover{
 	flex-direction: column;
 	box-sizing: border-box;
 	width: 80%;
+	align-items: center;
 }
 .topo img{
 	width: 25px;
 	height: auto;
 	margin: 10px 0px;
+}
+.topobaixo{
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+
+}
+
+.topobaixo img{
+	margin: 0;
+}
+.bannermain{
+	width: 100%;
+	padding: 10px 0px;
+}
+
+.index-category-text{
+	padding: 0px 10px;
+	width: 100%;
+		box-sizing: border-box;
+	
+
+}
+.index-category-text p{
+	
+	max-width: 80%;
+}
+
+.index-category-text h2{
+	font-size: 1.8rem;
+}
+
+header{
+	padding: 0;
+}
+.img-meio{
+	float: none;
+	width: 100%;
+}
+
+.maintext{
+	padding-left:15px ;
+	padding-right: 15px;
+	box-sizing: border-box;
+	display: table-cell;
+}
+
+.maintext p{
+	max-width: 80%;
 }
 }
